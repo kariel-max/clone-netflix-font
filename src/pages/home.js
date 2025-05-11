@@ -23,7 +23,7 @@ function Home() {
                                     <div className="seta-para-baixo"></div>
                                 </div>
 
-                                <a href="https://move-dev-5ogn3.ondigitalocean.app/cadastro/singIn"><button className="buttonEntrar" type="submit">Entrar</button></a>
+                                <a href="/cadastro/singIn"><button className="buttonEntrar" type="submit">Entrar</button></a>
                             </div>
                         </section>
 
@@ -36,7 +36,7 @@ function Home() {
                                     <h3>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
                                 
                                     <div id="input-inicial">
-                                        <a href="https://move-dev-5ogn3.ondigitalocean.app/cadastro">
+                                        <a href="/cadastro">
                                             <button type="submit" id="LoaderDiv" >
                                                 Vamos lá 
                                                 <img src={rigthArrow} alt='' />
