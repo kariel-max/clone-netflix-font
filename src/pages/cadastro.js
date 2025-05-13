@@ -19,7 +19,7 @@ function Cadastro() {
                     <div class="seta-para-baixo"></div>
                 </div>
             </div>
-            <a href="https://move-dev-5ogn3.ondigitalocean.app/cadastro/singIn">
+            <a href="/cadastro/singIn">
             <button class="buttonEntrar">Entrar</button></a>
         </section>
             </header>
@@ -55,7 +55,7 @@ function Cadastro() {
                     </div>
                     
                 </div>
-                    <a href="https://move-dev-5ogn3.ondigitalocean.app/cadastro/form">
+                    <a href="/cadastro/form">
                         <button class="buttonProximoPasso">Próximo</button>
                     </a>
             </section>

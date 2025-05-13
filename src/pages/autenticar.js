@@ -19,7 +19,7 @@ function Autenticar() {
                             <div class="seta-para-baixo"></div>
                         </div>
                 </div>
-                <a href="https://move-dev-5ogn3.ondigitalocean.app/cadastro/singIn">
+                <a href="/cadastro/singIn">
                     <button class="buttonEntrar">Entrar</button>
                 </a>
             </section>
@@ -56,7 +56,7 @@ function Autenticar() {
             </div>
             
         </div>
-        <a href="https://move-dev-5ogn3.ondigitalocean.app/cadastro/planform"><button class="buttonProximoPasso">Próximo</button></a>
+        <a href="/cadastro/planform"><button class="buttonProximoPasso">Próximo</button></a>
         </section>
 
         </main>

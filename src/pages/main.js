@@ -18,7 +18,7 @@ function Main() {
                         <div class="seta-para-baixo"></div>
                     </div>
                 </div>
-                <a href="https://move-dev-5ogn3.ondigitalocean.app/cadastro/singIn"><button class="buttonEntrar">Entrar</button></a>
+                <a href="/cadastro/singIn"><button class="buttonEntrar">Entrar</button></a>
             </section>
 
                 </section>

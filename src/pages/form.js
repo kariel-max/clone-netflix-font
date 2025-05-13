@@ -18,7 +18,7 @@ function Form() {
     const handleSubmit = async (event) => {
         event.preventDefault();
         try {
-            const response = await axios.post("https://move-dev-5ogn3.ondigitalocean.app/cadastro/singUp", formData);
+            const response = await axios.post("/cadastro/singUp", formData);
             console.log("Resposta do servidor:", response.data);
         } catch (error) {
             console.error("Erro ao enviar dados:", error);
@@ -40,7 +40,7 @@ function Form() {
                         <div class="seta-para-baixo"></div>
                     </div>
                 </div>
-                <a href="https://move-dev-5ogn3.ondigitalocean.app/cadastro/singIn" ><button class="buttonEntrar" type="submit">Entrar</button></a>
+                <a href="/cadastro/singIn" ><button class="buttonEntrar" type="submit">Entrar</button></a>
             </section>
         </header>
         <main class="mainContainer">
